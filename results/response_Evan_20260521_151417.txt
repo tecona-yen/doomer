@@ -1,0 +1,90 @@
+Doomer Quiz Response
+====================
+Timestamp: 2026-05-21 15:14:17
+Name: Evan
+Email: evanliffordyoung@gmail.com
+Score: 36%
+Category: Mild Doomer
+
+Answers Breakdown:
+------------------
+Q1: What time do you typically wake up?
+Selected: After 9am, feeling refreshed
+Points: 0
+
+Q2: When someone says 'Have a great day!', you think:
+Selected: Mild smile, carry on
+Points: 1
+
+Q3: Your ideal weekend activity:
+Selected: Sitting in dim light contemplating entropy
+Points: 5
+
+Q4: How do you feel about the future?
+Selected: Deep unease, but managing
+Points: 3
+
+Q5: How many energy drinks have you had today?
+Selected: One, for a meeting
+Points: 1
+
+Q6: Your go-to music when alone:
+Selected: Indie, pretty chill
+Points: 1
+
+Q7: What's on your mug right now?
+Selected: Something ironic and dark
+Points: 3
+
+Q8: You see someone laughing loudly in public. Your reaction:
+Selected: Neutral, no strong feeling
+Points: 1
+
+Q9: When did you last feel genuine excitement about something?
+Selected: This week
+Points: 0
+
+Q10: A friend invites you to a party. You:
+Selected: Reply three days later saying 'maybe'
+Points: 5
+
+Q11: Your diet could best be described as:
+Selected: Whatever's convenient
+Points: 1
+
+Q12: What do you think about going to the gym?
+Selected: Good habit, nothing more
+Points: 1
+
+Q13: What's written on the wall above your bed (metaphorically)?
+Selected: Something vaguely ominous I hung ironically
+Points: 3
+
+Q14: Your relationship with your cat:
+Selected: Love them, great company
+Points: 1
+
+Q15: What's your relationship with nostalgia?
+Selected: Nice to remember, but forward-looking
+Points: 1
+
+Q16: How do you feel when you open the news?
+Selected: Mild concern, I manage it
+Points: 1
+
+Q17: Pick your philosophy reading:
+Selected: Being and Nothingness – Sartre
+Points: 3
+
+Q18: Someone says 'everything happens for a reason.' You:
+Selected: Understand the sentiment
+Points: 1
+
+Q19: What do you think about when you can't sleep?
+Selected: The accelerating complexity of suffering
+Points: 3
+
+Q20: You find a note: 'Reasons to keep going:' — you write:
+Selected: A long list, immediately
+Points: 0
+

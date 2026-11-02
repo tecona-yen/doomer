@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate Doomer Quiz Are you a doomer or not?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div id="cover" class="screen active">
+  <div class="cover-img-wrap">
+    <img id="cover-img" src="{{ url_for('static', filename='cover.jpg') }}" alt="Doomer" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1518698944510-745a5d1f8da2?auto=format&fit=crop&q=80&w=1000';"/>
+  </div>
+  <div class="cover-content">
+    <div class="cover-title">Ultimate Doomer Quiz</div>
+    <div class="cover-sub">Are you a doomer or not?</div>
+    <p class="cover-desc">20 questions. Ruthlessly honest results. Find out exactly where you fall on the spectrum from blissfully oblivious to fully terminal.</p>
+    
+    <div class="form-group">
+      <label for="user-name">Name (Optional)</label>
+      <input type="text" id="user-name" placeholder="Enter your name">
+    </div>
+    
+    <div class="form-group">
+      <label for="user-email">Email (Optional)</label>
+      <input type="email" id="user-email" placeholder="Enter your email">
+    </div>
+
+    <button class="btn-start" onclick="startQuiz()">BEGIN ASSESSMENT</button>
+    <div class="cover-foot">results may confirm your worst suspicions &nbsp;·&nbsp; 4:28 AM</div>
+  </div>
+</div>
+
+<div id="quiz" class="screen">
+  <div class="quiz-header">
+    <span class="quiz-lbl">Doomer Assessment</span>
+    <span class="q-counter" id="q-counter">1 / 20</span>
+  </div>
+  <div class="progress-bar"><div class="progress-fill" id="prog" style="width:5%"></div></div>
+  <div class="q-text" id="q-text"></div>
+  <div class="opts" id="opts"></div>
+  <div class="nav">
+    <button class="dq-btn" id="btn-back" onclick="prevQ()" disabled>← BACK</button>
+    <button class="dq-btn primary" id="btn-next" onclick="nextQ()" disabled>NEXT →</button>
+  </div>
+</div>
+
+<div id="results" class="screen">
+  <div class="res-cat">Assessment Complete</div>
+  <span class="res-icon" id="r-icon"></span>
+  <div class="res-title" id="r-title"></div>
+  <div class="score-ring">
+    <div class="score-num" id="r-score"></div>
+    <div class="score-lbl">DOOMER %</div>
+  </div>
+  <div class="res-desc" id="r-desc"></div>
+  <div class="skulls" id="r-skulls"></div>
+  <hr class="div">
+  <div class="bars" id="r-bars"></div>
+  <hr class="div">
+  <div class="quote-block" id="r-quote"></div>
+  <div id="submit-msg"></div>
+  <div class="retry">
+    <button class="dq-btn primary" onclick="restart()">RETAKE ASSESSMENT</button>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
